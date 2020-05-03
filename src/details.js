@@ -262,10 +262,11 @@ class Details extends React.Component {
               info.location
             }
           />
+          <p>{data.length} Attendees</p>
         </Card>
 
         <Table
-          style={{ width: 800 }}
+          style={{ width: 1000 }}
           columns={columns}
           rowKey={record => record.id}
           dataSource={data}

@@ -1,6 +1,6 @@
 import React from "react";
 import { ListGroup, ListGroupItem } from "reactstrap";
-import "../App.css";
+import "./App.css";
 import { Link } from "react-router-dom";
 
 class Example extends React.Component {
